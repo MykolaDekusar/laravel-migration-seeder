@@ -1,4 +1,3 @@
-@dd($trains)
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,6 +13,10 @@
     <h1>
         Template
     </h1>
+    @foreach ($trains as $train)
+        {{ $train }}
+    @endforeach
 </body>
+
 
 </html>
