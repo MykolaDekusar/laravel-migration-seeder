@@ -1,3 +1,4 @@
+@dd($trains)
 <!DOCTYPE html>
 <html lang="en">
 
