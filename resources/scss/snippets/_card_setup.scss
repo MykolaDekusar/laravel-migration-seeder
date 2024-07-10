@@ -12,6 +12,15 @@
     -webkit-backdrop-filter: blur(12px);
 }
 
+.card-extended {
+    width: 45%;
+    padding: 1rem;
+    background: rgba(254, 131, 0, 0.518);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    line-height: 2rem;
+}
+
 .card-content {
     line-height: 2rem;
     text-align: center;

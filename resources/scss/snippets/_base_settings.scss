@@ -8,9 +8,23 @@ body {
     padding: 2rem;
 }
 
+.container-filtered {
+    max-width: 1350px;
+    margin: 0 auto;
+    height: calc(100vh - 330px);
+    padding: 2rem;
+}
+
 .row {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+.row-filtered {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

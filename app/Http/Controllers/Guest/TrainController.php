@@ -13,7 +13,7 @@ class TrainController extends Controller
     public function index($id)
     {
         $today_time = Carbon::now();
-        $trains = Train::where('departure_time', '>=', $today_time)->where('id', $id)->get();
-        return view('.Pages/trains', compact('trains'));
+        $trains = Train::where('departure_time', '<', $today_time)->where('id', $id)->get();
+        return view('.Pages/filteredTrains', compact('trains'));
     }
 }

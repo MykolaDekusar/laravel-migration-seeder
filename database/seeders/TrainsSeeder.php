@@ -21,7 +21,7 @@ class TrainsSeeder extends Seeder
             $data->arrival_station = $faker->city;
             $data->departure_time = $faker->dateTimeThisMonth;
             $data->arrival_time = $faker->dateTimeThisMonth;
-            $data->train_code = $faker->bothify('??####');
+            $data->train_code = strtoupper($faker->bothify('??####'));
             $data->train_length = $faker->numberBetween(2, 30);
             $data->is_in_time = $faker->boolean();
             $data->is_cancelled = $faker->boolean();
