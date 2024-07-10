@@ -6,19 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trains List</title>
+    <link rel="stylesheet" href="./scss/app.scss">
     @vite('resources/js/app.js')
 </head>
 
 <body>
-    <h1>
-        Template
-    </h1>
-    <ul>
-        @foreach ($trains as $train)
-            <li>{{ $train }}</li>
-        @endforeach
-    </ul>
-
+    @extends('shared.footer')
+    @extends('shared.main')
+    @extends('shared.header')
 </body>
 
 </html>

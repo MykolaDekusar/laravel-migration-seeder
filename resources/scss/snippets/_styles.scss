@@ -1,0 +1,38 @@
+@use "colors.scss" as *;
+
+header {
+    padding: 2rem;
+    z-index: 2;
+    margin-bottom: 5rem;
+    background: rgba(206, 206, 206, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+h1 {
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.75rem;
+}
+
+footer {
+    margin-top: 5rem;
+    padding: 1rem;
+    background: rgba(206, 206, 206, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    text-align: center;
+    color: $darkOrange;
+}
+
+.creator {
+    color: $orange;
+}
